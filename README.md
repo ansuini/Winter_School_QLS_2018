@@ -17,7 +17,7 @@ Contents:
 
 ### Installation instructions
 
-All the code will be developed in Python 3.6 or higher.
+All the code will be developed in Python 3.6.
 
 - Download Anaconda Python 3.6 https://www.anaconda.com/download/
 - Install Git (https://git-scm.com/) on your laptop 
@@ -32,7 +32,8 @@ All the code will be developed in Python 3.6 or higher.
 - Create (if you do not have already) your github account https://github.com/
 - Fork repository REPO NAME [link]
 - Clone repository REPO NAME [link]
-- On a terminal : $ pip install gym
+- Install OpenAI Gym (https://gym.openai.com/)
+  - on a terminal : $ pip install gym
 
 
 ### GPU access
