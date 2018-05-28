@@ -38,7 +38,10 @@ All the code will be developed in Python 3.6.
 
 ### GPU access
 
-Training is not particularly instructive in a first approach.
-So, maybe we can organize an interactive session with just one computer, to show how it works.
-Then we can make the trained models accessible for download and experiments.
-with the results.
+Training is not particularly instructive in a first approach, where ideas are important.
+So, when a long training is required (more than a few minutes), we could shift to 
+demonstrative sessions with just one computer, and its monitor made visible by a projector.
+
+Then we can make the code, the trained models and/or the results accessible for 
+download and experimentation. What do you think ?
+
