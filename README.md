@@ -22,10 +22,14 @@ All the code will be developed in Python 3.6 or higher.
 - Download Anaconda Python 3.6 https://www.anaconda.com/download/
 - Install Git (https://git-scm.com/) on your laptop 
 
-  - Linux/MacOSX : $sudo apt-get install git
-  - Windows :install Ubuntu from Store or Cygwin and then install git from the available packages
+  - Linux/macOS : $sudo apt-get install git
+  - Windows 10 : install Ubuntu from Store (https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows#0) 
+  - Windows (earlier versions) : install Cygwin (http://www.cygwin.com/) and then install git from the available packages
+  
+  Alternative for Windows users : install VirtualBox (https://www.virtualbox.org/wiki/Downloads) and then follow instructions
+  for Linux/macOS users
   
 - Create (if you do not have already) your github account https://github.com/
-- Fork repository REPO NAME
-- Clone repository REPO NAME
+- Fork repository REPO NAME [link]
+- Clone repository REPO NAME [link]
 - On a terminal : $ pip install gym
