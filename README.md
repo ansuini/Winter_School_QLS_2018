@@ -15,7 +15,28 @@ Contents:
 - Jupyter notebooks
 
 
+### Basic rules of accessing help
+
+These are a few common sense basic rules to solve problems and ask for help :
+
+- if it doesn't work look into the documentation 
+  - man pages (Linux)
+  - python documentation (ex. on a Jupyter cell evaluate ?function/module to access help, or ??function/module to access code)
+  - from the Internet (online documentation, forums etc.)
+  
+- if this either doesn't work look for help from colleagues
+
+- if this either doesn't work call one of us
+
+- if this either doesn't work ... (ok this should not happen so often !)
+
+In any case the most important rule is :
+
+- do not get stack more than a few minutes (say 5-10 depending on the problem) in trying to solve things by yourself !
+
+
 ### Installation instructions
+
 
 All the code will be developed in Python 3.6.
 
