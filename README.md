@@ -33,3 +33,11 @@ All the code will be developed in Python 3.6 or higher.
 - Fork repository REPO NAME [link]
 - Clone repository REPO NAME [link]
 - On a terminal : $ pip install gym
+
+
+### GPU access
+
+Training is not particularly instructive in a first approach.
+So, maybe we can organize an interactive session with just one computer, to show how it works.
+Then we can make the trained models accessible for download and experiments.
+with the results.
