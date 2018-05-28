@@ -1,4 +1,4 @@
-# Winter_School_QSB_2018
+# Winter School QSB 2018
 
 Didactic materials for the :
 
