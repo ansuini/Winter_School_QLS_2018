@@ -1,6 +1,5 @@
 Todo list for the Winter School in Quantitative Systems Biology
 ===============================================================
----
 
 Here is a list of things that still need to be done to complete the tutorials for the school
 
