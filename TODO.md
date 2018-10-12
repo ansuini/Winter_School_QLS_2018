@@ -11,3 +11,11 @@ Here is a list of things that still need to be done to complete the tutorials fo
 [ ] add explanation to the sections of notebooks following Nielsen's line of reasoning
 [ ] add pre-trained models
 [ ] exercises
+
+
+[ ] extra packages 
+
+    -gym 
+    -tqdm
+    -jupyter themes
+    
