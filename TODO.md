@@ -12,6 +12,20 @@ Here is a list of things that still need to be done to complete the tutorials fo
 [ ] add pre-trained models
 [ ] exercises
 
+[ ] convnets : add explanations to the notebook, add pre-trained models, endow with the possibility
+of switching between training and evaluation, with safe methods for saving models
+
+[ ] extraction + RSM, add references and some figures, to be paralleled from the SLIDES on
+Advanced 1
+
+[ ] decoding : add new section on a more complex decoding problem with continuous and categorical parameters too
+
+[ ] transfer learning : improve version now available
+
+[ ] visualizations : keras
+
+[ ] adversarial examples : look for the simples keras implementation
+
 
 [ ] extra packages 
 
