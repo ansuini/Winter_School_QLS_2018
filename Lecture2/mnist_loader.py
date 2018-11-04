@@ -35,7 +35,7 @@ def load_data():
     That's done in the wrapper function ``load_data_wrapper()``, see
     below.
     """
-    f = gzip.open('../Lecture1/mnist.pkl.gz', 'rb')
+    f = gzip.open('/home/qsb/Winter_School_QSB_2018/data/mnist.pkl.gz', 'rb')
     training_data, validation_data, test_data = pickle.load(f, encoding="latin1")
     f.close()
     return (training_data, validation_data, test_data)
