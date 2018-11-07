@@ -7,6 +7,7 @@
 **/data/*
 Lecture1/README.md
 Lecture1/*.py
+Lecture1/slides
 **/*.odp
 **/*.ckpt.*
 **/checkpoint
