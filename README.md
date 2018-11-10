@@ -9,14 +9,15 @@ http://indico.ictp.it/event/8339/
 
 Contents:
 
+- Rules of accessing help
 - Installation instructions (below)
-- References to books, papers and other relevant writings
+- References to books, papers and websites
 - Jupyter notebooks
 
 
 ### Basic rules of accessing help
 
-These are a few common sense basic rules to solve problems and ask for help :
+These are a few common sense basic rules to solve problems and asking for help :
 
 - if it doesn't work look into the documentation 
   - man pages (Linux)
@@ -36,32 +37,12 @@ In any case the most important rule is :
 
 ### Installation instructions
 
+The exercises will be presented using Python3 and Jupyter notebooks. 
+For convenience, we have prepared a virtual machine running Ubuntu with all the requirements. 
 
-All the code will be developed in Python 3.6.
+Here are the instructions to make it work on your laptop:
+- download and install VirtualBox (https://www.virtualbox.org/wiki/Downloads) 
+- download the image (https://www.dropbox.com/s/yo0to00ddwgymk3/WinterSchoolQSB.ova?dl=0)
+- import and run it using VirtualBox 
 
-- Download Anaconda Python 3.6 https://www.anaconda.com/download/
-- Install Git (https://git-scm.com/) on your laptop 
-
-  - Linux/macOS : $sudo apt-get install git
-  - Windows 10 : install Ubuntu from Store (https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows#0) 
-  - Windows (earlier versions) : install Cygwin (http://www.cygwin.com/) and then install git from the available packages
-  
-  Alternative for Windows users : install VirtualBox (https://www.virtualbox.org/wiki/Downloads) and then follow instructions
-  for Linux/macOS users
-  
-- Create (if you do not have already) your github account https://github.com/
-- Fork repository REPO NAME [link]
-- Clone repository REPO NAME [link]
-- Install OpenAI Gym (https://gym.openai.com/)
-  - on a terminal : $ pip install gym
-
-
-### GPU access
-
-Training is not particularly instructive in a first approach, where ideas are important.
-So, when a long training is required (more than a few minutes), we could shift to 
-demonstrative sessions with just one computer, and its monitor made visible by a projector.
-
-Then we can make the code, the trained models and/or the results accessible for 
-download and experimentation. What do you think ?
-
+For those of you who already have Python3 and Jupyter on their own laptop we attach a file with all the requirements that can be installed using pip install -r requirements.txt under Python3.
