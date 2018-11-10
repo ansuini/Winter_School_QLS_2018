@@ -34,6 +34,17 @@ In any case the most important rule is :
 
 - do not get stack more than a few minutes (say 5-10 depending on the problem) in trying to solve things by yourself !
 
+### Team formation
+
+It is warmly suggested to form small teams of 3-4 persons.
+We will not assign exercises that require extra work outside the hands-on sessions, 
+and nor the teamwork nor the individual work will be evaluated. Anyway it will 
+be a more entertaining experience if you work in small teams. Everyone of us has different 
+backgrounds, experiences and viewpoints, and we encourage diversity of approaches,
+even in a context of very basic exercises like the ones we prepared. Try to 
+self-organize teams composed by persons with different cultural experiences:
+it will be a more useful experience for everyone !
+
 
 ### Installation instructions
 
