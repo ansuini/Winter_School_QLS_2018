@@ -29,14 +29,16 @@ country of origin etc. It will be a more rewarding experience for everyone !*
 ### Basic rules of accessing help
 
 These are a few common sense basic rules to solve problems and asking for help.
-This rules are valid for example in the ordinary administration of forums of discussion 
-such as :
+These rules are valid for example in the ordinary administration of forums of discussion 
+on math and statistics topics such as 
 
 - https://stackoverflow.com/
 
 - https://stats.stackexchange.com/
 
 - ...
+
+and many others.
 
 These rules are not written but are always applied. A version which is specific
 for our hands-on session is in the following :
