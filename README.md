@@ -15,7 +15,7 @@ Contents:
 - Jupyter notebooks
 
 
-### Team formation
+### *Team formation*
 
 *It is warmly suggested to form small teams of 3-4 persons.
 We will not assign exercises that require extra work outside the hands-on sessions, 
@@ -26,25 +26,34 @@ even in a context of very basic exercises like the ones we prepared. Try to
 self-organize teams composed by persons with different cultural experiences, 
 country of origin etc. It will be a more rewarding experience for everyone !*
 
-
-
-
 ### Basic rules of accessing help
 
-These are a few common sense basic rules to solve problems and asking for help :
+These are a few common sense basic rules to solve problems and asking for help.
+This rules are valid for example in the ordinary administration of forums of discussion 
+such as :
+
+- https://stackoverflow.com/
+
+- https://stats.stackexchange.com/
+
+- ...
+
+These rules are not written but are always applied. A version which is specific
+for our hands-on session is in the following :
 
 - if it doesn't work look into the documentation 
   - man pages (Linux)
   - python documentation (ex. on a Jupyter cell evaluate ?function/module to access help, or ??function/module to access code)
   - from the Internet (online documentation, forums etc.)
   
-- if this either doesn't work look for help from colleagues
+- if this either doesn't work look for help from your colleagues
 
-- if this either doesn't work call one of us
+- if this either doesn't work call one of us, there will be always some of us going around and
+  willing for help
 
 - if this either doesn't work ... (ok this should not happen so often !)
 
-In any case the most important rule is :
+In any case the most important rule is the following :
 
 - do not get stack more than a few minutes (say 5-10 depending on the problem) in trying to solve things by yourself !
 
