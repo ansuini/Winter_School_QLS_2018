@@ -42,8 +42,9 @@ and nor the teamwork nor the individual work will be evaluated. Anyway it will
 be a more entertaining experience if you work in small teams. Everyone of us has different 
 backgrounds, experiences and viewpoints, and we encourage diversity of approaches,
 even in a context of very basic exercises like the ones we prepared. Try to 
-self-organize teams composed by persons with different cultural experiences:
-it will be a more useful experience for everyone !
+self-organize teams composed by persons with different cultural experiences,
+different gender, country of origin etc. It will be a more rewarding
+experience for everyone !
 
 
 ### Installation instructions
