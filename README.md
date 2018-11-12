@@ -17,16 +17,16 @@ Contents:
 
 ### *Team formation*
 
-*It is warmly suggested to form small teams of 3-4 persons.
+*We warmly encourage to form small teams of 3-4 persons.
 We will not assign exercises that require extra work outside the hands-on sessions, 
-and nor the teamwork nor the individual work will be evaluated. Anyway it will 
+and neither the team work nor the individual work will be evaluated. Anyway it will 
 be a more entertaining experience if you work in small teams. Everyone of us has different 
 backgrounds, experiences and viewpoints, and we encourage diversity of approaches,
 even in a context of very basic exercises like the ones we prepared. Try to 
 self-organize teams composed by persons with different cultural experiences, 
 country of origin etc. It will be a more rewarding experience for everyone !*
 
-### Basic rules of accessing help
+### Basic rules of problem solving
 
 These are a few common sense basic rules to solve problems and asking for help.
 These rules are valid for example in the ordinary administration of forums of discussion 
@@ -50,14 +50,14 @@ for our hands-on session is in the following :
   
 - if this either doesn't work look for help from your colleagues
 
-- if this either doesn't work call one of us, there will be always some of us going around and
-  willing for help
+- if this doesn't work either call one of us, there will always be some of
+us going around ready to help
 
-- if this either doesn't work ... (ok this should not happen so often !)
+- if this doesn't work either ... (ok it should not happen very often !)
 
 In any case the most important rule is the following :
 
-- do not get stack more than a few minutes (say 5-10 depending on the problem) in trying to solve things by yourself !
+- do not get stuck more than a few minutes (say 5-10 depending on the problem) in trying to solve things by yourself !
 
 
 ### Installation instructions
