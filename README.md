@@ -9,59 +9,65 @@ http://indico.ictp.it/event/8339/
 
 Contents:
 
+- Rules of accessing help
 - Installation instructions (below)
-- References to books, papers and other relevant writings
+- References to books, papers and websites
 - Jupyter notebooks
 
 
+### *Team formation*
+
+*It is warmly suggested to form small teams of 3-4 persons.
+We will not assign exercises that require extra work outside the hands-on sessions, 
+and nor the teamwork nor the individual work will be evaluated. Anyway it will 
+be a more entertaining experience if you work in small teams. Everyone of us has different 
+backgrounds, experiences and viewpoints, and we encourage diversity of approaches,
+even in a context of very basic exercises like the ones we prepared. Try to 
+self-organize teams composed by persons with different cultural experiences, 
+country of origin etc. It will be a more rewarding experience for everyone !*
+
 ### Basic rules of accessing help
 
-These are a few common sense basic rules to solve problems and ask for help :
+These are a few common sense basic rules to solve problems and asking for help.
+These rules are valid for example in the ordinary administration of forums of discussion 
+on math and statistics topics such as 
+
+- https://stackoverflow.com/
+
+- https://stats.stackexchange.com/
+
+- ...
+
+and many others.
+
+These rules are not written but are always applied. A version which is specific
+for our hands-on session is in the following :
 
 - if it doesn't work look into the documentation 
   - man pages (Linux)
   - python documentation (ex. on a Jupyter cell evaluate ?function/module to access help, or ??function/module to access code)
   - from the Internet (online documentation, forums etc.)
   
-- if this either doesn't work look for help from colleagues
+- if this either doesn't work look for help from your colleagues
 
-- if this either doesn't work call one of us
+- if this either doesn't work call one of us, there will be always some of us going around and
+  willing for help
 
 - if this either doesn't work ... (ok this should not happen so often !)
 
-In any case the most important rule is :
+In any case the most important rule is the following :
 
 - do not get stack more than a few minutes (say 5-10 depending on the problem) in trying to solve things by yourself !
 
 
 ### Installation instructions
 
+The exercises will be presented using Python3 and Jupyter notebooks. 
+For convenience, we have prepared a virtual machine running Ubuntu with all the requirements. 
 
-All the code will be developed in Python 3.6.
+Here are the instructions to make it work on your laptop:
+- download and install VirtualBox (https://www.virtualbox.org/wiki/Downloads) 
+- download the image (https://www.dropbox.com/s/yo0to00ddwgymk3/WinterSchoolQSB.ova?dl=0)
+- import and run it using VirtualBox 
 
-- Download Anaconda Python 3.6 https://www.anaconda.com/download/
-- Install Git (https://git-scm.com/) on your laptop 
-
-  - Linux/macOS : $sudo apt-get install git
-  - Windows 10 : install Ubuntu from Store (https://tutorials.ubuntu.com/tutorial/tutorial-ubuntu-on-windows#0) 
-  - Windows (earlier versions) : install Cygwin (http://www.cygwin.com/) and then install git from the available packages
-  
-  Alternative for Windows users : install VirtualBox (https://www.virtualbox.org/wiki/Downloads) and then follow instructions
-  for Linux/macOS users
-  
-- Create (if you do not have already) your github account https://github.com/
-- Fork repository REPO NAME [link]
-- Clone repository REPO NAME [link]
-- Install OpenAI Gym (https://gym.openai.com/)
-  - on a terminal : $ pip install gym
-
-
-### GPU access
-
-Training is not particularly instructive in a first approach, where ideas are important.
-So, when a long training is required (more than a few minutes), we could shift to 
-demonstrative sessions with just one computer, and its monitor made visible by a projector.
-
-Then we can make the code, the trained models and/or the results accessible for 
-download and experimentation. What do you think ?
-
+For those of you who already have Python3 and Jupyter on their own laptop we attach a file with all the requirements that can be installed using pip install -r requirements.txt under Python3.
