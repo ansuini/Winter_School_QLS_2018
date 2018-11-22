@@ -85,7 +85,7 @@ def get_emnist(dataset):
     
     return (train_i, train_l), (test_i, test_l)
 
-def show_test(model, validation_data):
+def show_test_emnist(model, validation_data):
     letters = string.ascii_uppercase
     labels = np.argmax(model.predict(validation_data[0]), axis=1)
     ground_truth = np.argmax(validation_data[1], axis=1)
@@ -110,6 +110,34 @@ def show_test(model, validation_data):
         ax.set_yticks(())
         ax.set_title('Prediction: '+letters[labels[idx]]+
                      ' \n Truth: '+letters[ground_truth[idx]], color=c)
+    plt.suptitle("Model error rate: {:.2f}%".format(accuracy*100))
+    plt.show()
+    plt.style.use('seaborn')
+
+def show_test(model, validation_data):
+    labels = np.argmax(model.predict(validation_data[0]), axis=1)
+    ground_truth = np.argmax(validation_data[1], axis=1)
+    accuracy = np.sum(labels != ground_truth)/labels.size
+    num_errors = min(np.sum(labels != ground_truth), 20)
+    errors = np.random.choice(np.nonzero(labels != ground_truth)[0], num_errors, replace=False)
+    correct = np.random.choice(
+        np.nonzero(labels == ground_truth)[0], 60 - num_errors, replace=False)
+    stimuli = np.hstack((errors, correct))
+    np.random.shuffle(stimuli)
+    plt.style.use('grayscale')
+    num_columns = 10
+    num_rows = 6
+    fig, axes = plt.subplots(num_rows, 10, figsize=(20, 3 * num_rows))
+    for idx, ax in zip(stimuli, axes.ravel()):
+        if idx in errors:
+            c = 'r'
+        else:
+            c = 'k'
+        ax.matshow(validation_data[0][idx, :, :, 0])
+        ax.set_xticks(())
+        ax.set_yticks(())
+        ax.set_title('Prediction: '+str(labels[idx])+
+                     ' \n Truth: '+str(ground_truth[idx]), color=c)
     plt.suptitle("Model error rate: {:.2f}%".format(accuracy*100))
     plt.show()
     plt.style.use('seaborn')
