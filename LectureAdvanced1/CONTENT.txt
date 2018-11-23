@@ -1,0 +1,12 @@
+This folder contains the following notebooks
+
+- Decoding.ipynb
+ 
+  where we show how to extract representations, perform a representation
+  similarity analysis, and decode the categorical information at the differen
+  layers of a deep network
+
+  we also apply this metodhs to the analysis of neural data
+
+
+
